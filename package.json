@@ -12,6 +12,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "rebuild": " npx nuxi prepare",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "@nuxt/eslint": "0.7.5",
+    "@nuxt/ui": "2.21.0",
     "eslint": "^8.57.0",
     "nuxt": "^3.15.3",
     "vue": "^3.5.13",
